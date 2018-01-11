@@ -1,0 +1,40 @@
+﻿@model ATM.Models.Index
+
+@{
+    ViewBag.Title = "Login";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h3 style="text-align: center; margin-bottom: 20px;">Вход</h3>
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            <div class="col-md-12">
+                <label style="margin-right: 10px">Логин</label>
+                @Html.EditorFor(model => model.Name)
+                <!-- @Html.ValidationMessageFor(model => model.Name) -->
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-12">
+                <label>Пароль</label>
+                @Html.EditorFor(model => model.Password)
+               <!-- @Html.ValidationMessageFor(model => model.Password) -->
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Войти" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

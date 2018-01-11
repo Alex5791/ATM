@@ -1,0 +1,99 @@
+﻿body {
+    height: 100vh;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+table{
+    min-width: 100% !important;
+}
+tr, td{
+    border: 1px solid black !important;
+}
+.form-group{
+    margin: 20px 0 !important;
+    text-align: center !important;
+}
+.UserInfobtn button{
+    display: block;
+    margin: 20px auto;
+}
+
+button a{
+    color: black;
+}
+button a:hover{
+    text-decoration: none;
+}
+.UserList, .TransferList{
+    margin-top: 100px;
+}
+.Users td, .Transfers td{
+    padding-left: 5px;
+}
+.AddUser, .EditUser, .TransferToTel, .TransferToCard{
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+.AddUser input, .EditUser input, .TransferToTel input, .TransferToCard input{
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+}
+.AddUser button{
+    width: 100px;
+    margin-left: 150px;
+}
+
+.EditUser button{
+    width: 130px;
+    margin-left: 135px;
+}
+.CheckBalance, .TransferToTel, .TransferToCard{
+    text-align: center;
+    margin-top: 100px;
+}
+footer{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}

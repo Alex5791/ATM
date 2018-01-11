@@ -1,0 +1,15 @@
+﻿@model ATM.Models.User
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "UserInfo";
+}
+<h2><span>@ViewBag.Surname</span>&nbsp;<span>@ViewBag.Name</span></h2>
+@using (Html.BeginForm("LogOut", "Home", FormMethod.Post))
+{
+    <button class="btn btn-default" type="submit">Выйти</button>
+}
+<div class="col-md-12 text-center UserInfobtn">
+        <button class="btn btn-default"><a href="../Home/CheckBalance">Проверить баланс</a></button>
+        <button class="btn btn-default"><a href="../Home/CardTransfer">Перевести деньги</a></button>
+        <button class="btn btn-default"><a href="../Home/TelTransfer">Сотовая связь</a></button>
+</div>

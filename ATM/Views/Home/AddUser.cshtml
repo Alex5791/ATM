@@ -1,0 +1,24 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "AddUser";
+}
+@using (Html.BeginForm("AddUser", "Home", FormMethod.Post))
+{
+   
+    <div class="AddUser">
+        <form method="post" action="">
+            <h2 style="text-align:center;">Добавить пользователя</h2>
+            <input type="text" name="Surname" placeholder="Фамилия" class="form-control" />
+            <input type="text" name="Name" placeholder="Имя" class="form-control" />
+            <input type="text" name="Patronymic" placeholder="Отчество" class="form-control" />
+            <input type="text" name="Login" placeholder="Логин" class="form-control" />
+            <input type="text" name="Password" placeholder="Пароль" class="form-control" />
+            <input type="text" name="Telephone" placeholder="Телефон" class="form-control" />
+            <input type="text" name="Cardnumber" placeholder="Номер карточки" class="form-control" />
+            <input type="text" name="Balance" placeholder="Баланс" class="form-control" />
+            <input type="text" name="Role" placeholder="Роль" class="form-control" />
+            <button type="submit" class="btn btn-default">Добавить</button>
+        </form>
+        <button class="btn btn-default" style="margin-top: 10px"><a href="../Home/UserList">Назад</a></button>
+    </div>
+}

@@ -1,0 +1,25 @@
+﻿@model ATM.Models.User
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "EditUser";
+}
+@using (Html.BeginForm("EditUser", "Home", FormMethod.Post))
+{   
+    <div class="EditUser">
+        <form method="post" action="">
+            <h2 style="text-align:center;">Изменить пользователя</h2>
+            <input type="hidden" name="UserId" value="@Model.UserId" class="form-control" />
+            <input type="text" name="Surname" value="@Model.Surname" class="form-control" />
+            <input type="text" name="Name" value="@Model.Name" class="form-control" />
+            <input type="text" name="Patronymic" value="@Model.Patronymic" class="form-control" />
+            <input type="text" name="Login" value="@Model.Login" class="form-control" />
+            <input type="text" name="Password" value="@Model.Password" class="form-control" />
+            <input type="text" name="Telephone" value="@Model.Telephone" class="form-control" />
+            <input type="text" name="Cardnumber" value="@Model.Cardnumber" class="form-control" />
+            <input type="text" name="Balance" value="@Model.Balance" class="form-control" />
+            <input type="text" name="Role" value="@Model.Role" class="form-control" />
+            <button type="submit" class="btn btn-default">Изменить</button>
+        </form>
+        <button class="btn btn-default" style="margin-top: 10px"><a href="../UserList">Назад</a></button>
+    </div>
+}

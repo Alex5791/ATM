@@ -1,0 +1,38 @@
+﻿@model IEnumerable<ATM.Models.Transfer>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "UserList";
+}
+<p>
+    <h2><span>@ViewBag.Surname</span>&nbsp;<span>@ViewBag.Name</span></h2>
+    <button class="btn btn-default"><a href="../Home/UserInfo">Профиль клиента</a></button>
+</p>
+@using (Html.BeginForm("LogOut", "Home", FormMethod.Post))
+{
+    <button class="btn btn-default" type="submit">Выйти</button>
+}
+<div class="TransferList">
+    <h2>Переводы клиентов</h2>
+    <div>
+        <table class="Transfers table">
+            <tr class="header">
+                <td><p>Сумма</p></td>
+                <td><p>Операция</p></td>
+                <td><p>Получатель</p></td>
+                <td><p>Отправитель</p></td>
+                <td><p>Дата</p></td>
+            </tr>
+            @foreach (ATM.Models.Transfer u in Model)
+            {
+                <tr>
+                    <td><p>@u.Money</p></td>
+                    <td><p>@u.Operation</p></td>
+                    <td><p>@u.Receiver</p></td>
+                    <td><p>@u.Sender</p></td>
+                    <td><p>@u.Date</p></td>
+                </tr>
+            }
+        </table>
+    </div>
+    <button class="btn btn-default"><a href="../Home/UserList">Назад</a></button>
+</div>

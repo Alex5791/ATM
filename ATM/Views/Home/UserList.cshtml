@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ATM.Models.User>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "UserList";
+}
+<p>
+    <h2><span>@ViewBag.Surname</span>&nbsp;<span>@ViewBag.Name</span></h2>
+    <button class="btn btn-default"><a href="../Home/UserInfo">Профиль клиента</a></button>
+</p>
+@using (Html.BeginForm("LogOut", "Home", FormMethod.Post))
+{
+<button class="btn btn-default" type="submit">Выйти</button>
+}
+<div class="UserList">
+    <h2>Клиенты банка</h2>
+    <div>
+        <table class="Users table">
+          <tr class="header">
+               <td><p>Фамилия</p></td>
+               <td><p>Имя</p></td>
+               <td><p>Отчество</p></td>
+               <td><p>Логин</p></td>
+               <td><p>Пароль</p></td>
+               <td><p>Номер карты</p></td>
+               <td><p>Баланс</p></td>
+               <td><p>Роль</p></td>
+               <td></td>
+        </tr>
+        @foreach (ATM.Models.User u in Model)
+        {
+            <tr>
+                <td><p>@u.Surname</p></td>
+                <td><p>@u.Name</p></td>
+                <td><p>@u.Patronymic</p></td>
+                <td><p>@u.Login</p></td>
+                <td><p>@u.Password</p></td>
+                <td><p>@u.Cardnumber</p></td>
+                <td><p>@u.Balance</p></td>
+                <td><p>@u.Role</p></td>
+                <td><p><a href="../Home/EditUser/@u.UserId">Изменить</a></p></td>
+            </tr>
+        }
+    </table>
+    <button class="btn btn-default" style="margin-top: 10px; margin-right: 20px; display: inline-block;"><a href="../Home/AddUser">Добавить пользователя</a></button>
+    <button class="btn btn-default" style="margin-top: 10px; display inline-block;"><a href="../Home/TransferList">Переводы пользователей</a></button>
+</div>
+</div>

@@ -1,0 +1,120 @@
+C:\Users\леша\Desktop\ATM\ATM\bin\ATM.dll.config
+C:\Users\леша\Desktop\ATM\ATM\bin\ATM.dll
+C:\Users\леша\Desktop\ATM\ATM\bin\ATM.pdb
+C:\Users\леша\Desktop\ATM\ATM\bin\Antlr3.Runtime.dll
+C:\Users\леша\Desktop\ATM\ATM\bin\EntityFramework.dll
+C:\Users\леша\Desktop\ATM\ATM\bin\EntityFramework.SqlServer.dll
+C:\Users\леша\Desktop\ATM\ATM\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\леша\Desktop\ATM\ATM\bin\Newtonsoft.Json.dll
+C:\Users\леша\Desktop\ATM\ATM\bin\System.Web.Helpers.dll
+C:\Users\леша\Desktop\ATM\ATM\bin\System.Web.Mvc.dll
+C:\Users\леша\Desktop\ATM\ATM\bin\System.Web.Optimization.dll
+C:\Users\леша\Desktop\ATM\ATM\bin\System.Web.Razor.dll
+C:\Users\леша\Desktop\ATM\ATM\bin\System.Web.WebPages.Deployment.dll
+C:\Users\леша\Desktop\ATM\ATM\bin\System.Web.WebPages.dll
+C:\Users\леша\Desktop\ATM\ATM\bin\System.Web.WebPages.Razor.dll
+C:\Users\леша\Desktop\ATM\ATM\bin\WebGrease.dll
+C:\Users\леша\Desktop\ATM\ATM\bin\EntityFramework.xml
+C:\Users\леша\Desktop\ATM\ATM\bin\EntityFramework.SqlServer.xml
+C:\Users\леша\Desktop\ATM\ATM\bin\System.Web.Helpers.xml
+C:\Users\леша\Desktop\ATM\ATM\bin\System.Web.Mvc.xml
+C:\Users\леша\Desktop\ATM\ATM\bin\System.Web.Optimization.xml
+C:\Users\леша\Desktop\ATM\ATM\bin\System.Web.Razor.xml
+C:\Users\леша\Desktop\ATM\ATM\bin\System.Web.WebPages.xml
+C:\Users\леша\Desktop\ATM\ATM\bin\System.Web.WebPages.Deployment.xml
+C:\Users\леша\Desktop\ATM\ATM\bin\System.Web.WebPages.Razor.xml
+C:\Users\леша\Desktop\ATM\ATM\bin\Newtonsoft.Json.xml
+C:\Users\леша\Desktop\ATM\ATM\bin\Antlr3.Runtime.pdb
+C:\Users\леша\Desktop\ATM\ATM\obj\Debug\ATM.csprojResolveAssemblyReference.cache
+C:\Users\леша\Desktop\ATM\ATM\obj\Debug\ATM.dll
+C:\Users\леша\Desktop\ATM\ATM\obj\Debug\ATM.pdb
+D:\ATM\ATM\bin\ATM.dll.config
+D:\ATM\ATM\bin\ATM.dll
+D:\ATM\ATM\bin\ATM.pdb
+D:\ATM\ATM\bin\Antlr3.Runtime.dll
+D:\ATM\ATM\bin\EntityFramework.dll
+D:\ATM\ATM\bin\EntityFramework.SqlServer.dll
+D:\ATM\ATM\bin\Microsoft.Web.Infrastructure.dll
+D:\ATM\ATM\bin\Newtonsoft.Json.dll
+D:\ATM\ATM\bin\System.Web.Helpers.dll
+D:\ATM\ATM\bin\System.Web.Mvc.dll
+D:\ATM\ATM\bin\System.Web.Optimization.dll
+D:\ATM\ATM\bin\System.Web.Razor.dll
+D:\ATM\ATM\bin\System.Web.WebPages.Deployment.dll
+D:\ATM\ATM\bin\System.Web.WebPages.dll
+D:\ATM\ATM\bin\System.Web.WebPages.Razor.dll
+D:\ATM\ATM\bin\WebGrease.dll
+D:\ATM\ATM\bin\EntityFramework.xml
+D:\ATM\ATM\bin\EntityFramework.SqlServer.xml
+D:\ATM\ATM\bin\System.Web.Helpers.xml
+D:\ATM\ATM\bin\System.Web.Mvc.xml
+D:\ATM\ATM\bin\System.Web.Optimization.xml
+D:\ATM\ATM\bin\System.Web.Razor.xml
+D:\ATM\ATM\bin\System.Web.WebPages.xml
+D:\ATM\ATM\bin\System.Web.WebPages.Deployment.xml
+D:\ATM\ATM\bin\System.Web.WebPages.Razor.xml
+D:\ATM\ATM\bin\Newtonsoft.Json.xml
+D:\ATM\ATM\bin\Antlr3.Runtime.pdb
+D:\ATM\ATM\obj\Debug\ATM.csprojResolveAssemblyReference.cache
+D:\ATM\ATM\obj\Debug\ATM.dll
+D:\ATM\ATM\obj\Debug\ATM.pdb
+M:\ATM\ATM\bin\ATM.dll.config
+M:\ATM\ATM\bin\ATM.dll
+M:\ATM\ATM\bin\ATM.pdb
+M:\ATM\ATM\bin\Antlr3.Runtime.dll
+M:\ATM\ATM\bin\EntityFramework.dll
+M:\ATM\ATM\bin\EntityFramework.SqlServer.dll
+M:\ATM\ATM\bin\Microsoft.Web.Infrastructure.dll
+M:\ATM\ATM\bin\Newtonsoft.Json.dll
+M:\ATM\ATM\bin\System.Web.Helpers.dll
+M:\ATM\ATM\bin\System.Web.Mvc.dll
+M:\ATM\ATM\bin\System.Web.Optimization.dll
+M:\ATM\ATM\bin\System.Web.Razor.dll
+M:\ATM\ATM\bin\System.Web.WebPages.Deployment.dll
+M:\ATM\ATM\bin\System.Web.WebPages.dll
+M:\ATM\ATM\bin\System.Web.WebPages.Razor.dll
+M:\ATM\ATM\bin\WebGrease.dll
+M:\ATM\ATM\bin\EntityFramework.xml
+M:\ATM\ATM\bin\EntityFramework.SqlServer.xml
+M:\ATM\ATM\bin\System.Web.Helpers.xml
+M:\ATM\ATM\bin\System.Web.Mvc.xml
+M:\ATM\ATM\bin\System.Web.Optimization.xml
+M:\ATM\ATM\bin\System.Web.Razor.xml
+M:\ATM\ATM\bin\System.Web.WebPages.xml
+M:\ATM\ATM\bin\System.Web.WebPages.Deployment.xml
+M:\ATM\ATM\bin\System.Web.WebPages.Razor.xml
+M:\ATM\ATM\bin\Newtonsoft.Json.xml
+M:\ATM\ATM\bin\Antlr3.Runtime.pdb
+M:\ATM\ATM\obj\Debug\ATM.csprojResolveAssemblyReference.cache
+M:\ATM\ATM\obj\Debug\ATM.dll
+M:\ATM\ATM\obj\Debug\ATM.pdb
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\ATM.dll.config
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\ATM.dll
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\ATM.pdb
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\Antlr3.Runtime.dll
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\EntityFramework.dll
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\EntityFramework.SqlServer.dll
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\Newtonsoft.Json.dll
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\System.Web.Helpers.dll
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\System.Web.Mvc.dll
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\System.Web.Optimization.dll
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\System.Web.Razor.dll
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\System.Web.WebPages.Deployment.dll
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\System.Web.WebPages.dll
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\System.Web.WebPages.Razor.dll
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\WebGrease.dll
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\EntityFramework.xml
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\EntityFramework.SqlServer.xml
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\System.Web.Helpers.xml
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\System.Web.Mvc.xml
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\System.Web.Optimization.xml
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\System.Web.Razor.xml
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\System.Web.WebPages.xml
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\System.Web.WebPages.Deployment.xml
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\System.Web.WebPages.Razor.xml
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\Newtonsoft.Json.xml
+C:\Users\леша\Desktop\ATM — копия\ATM\bin\Antlr3.Runtime.pdb
+C:\Users\леша\Desktop\ATM — копия\ATM\obj\Debug\ATM.csprojResolveAssemblyReference.cache
+C:\Users\леша\Desktop\ATM — копия\ATM\obj\Debug\ATM.dll
+C:\Users\леша\Desktop\ATM — копия\ATM\obj\Debug\ATM.pdb

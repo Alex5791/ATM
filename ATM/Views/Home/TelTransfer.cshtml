@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "TelTransfer";
+}
+@using (Html.BeginForm("TelTransfer", "Home", FormMethod.Post))
+{
+<div class="TransferToTel">
+    <p style="color: red;">@ViewBag.Error</p>
+    <p>
+        Ваш баланс на данный момент составляет:<br />
+        <span>@ViewBag.Balance</span>₽
+    </p>
+    <form method="post" action="">
+    <label for=" telnumber">Введите номер телефона</label>
+    <input type="text" name="telNumber" class="form-control" />
+    <label for="transferVal">Введите сумму</label>
+    <input type="number" name="transferVal" class="form-control" />
+    <button class="btn btn-default" type="submit" style="margin-bottom: 20px;">Перевести</button>
+</form>
+    <br />
+        <button class="btn btn-default"><a href="../Home/UserInfo">Назад</a></button>
+</div>
+}
+
